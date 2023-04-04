@@ -11016,57 +11016,27 @@ header.masthead h1, header.masthead .h1 {
     }
   }
 }
-
-.pic{
-  margin-bottom: 15px;
-  width: 29%;
-  height: auto;
-  border-radius: 100%;
-  box-shadow: 0px 5px 20px 	#FFFF8F
-}
-.projects{
-  margin: auto ;
-  width: 100%;
-  height: auto;
-  img{
-    margin: auto;
-    width: 100%;
-    height: 60%;
-  }
-}
 .lang-div{
-  :nth-child(1){
-    margin: 0 10px 0 20px;
-  }
     img{
       width: 20px;
       height: 20px;
       cursor: pointer;
+      margin-left: 15px;
     }
 }
-
 // dropdown menu
-
-.ul-div{
-  @media (max-width: 992px) {
-    display: none
-  }
-}
-.dropMenu{
-  @media (min-width: 992px) {
-    display: none;
-  }
-}
 .dropdown {
   position: relative;
   display: inline-block;
   button{
     background-color: #f4623a;
-    color: white;
-    padding: 10px;
+    padding: 5px;
     font-size: 12px;
     border: none;
     border-radius: 5px;
+    img{
+      margin: 0 auto;
+    }
   }
   div{
     display: none;
@@ -11085,3 +11055,30 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 .dropdown:hover .dropdown-content {display: block;}
+.ul-div{
+  @media (max-width: 992px) {
+    display: none
+  }
+}
+.dropMenu{
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+.pic{
+  margin-bottom: 15px;
+  width: 29%;
+  height: auto;
+  border-radius: 100%;
+  box-shadow: 0px 5px 20px 	#FFFF8F
+}
+.projects{
+  margin: auto ;
+  width: 100%;
+  height: auto;
+  img{
+    margin: auto;
+    width: 100%;
+    height: 60%;
+  }
+}
