@@ -90,7 +90,6 @@ export default function App() {
         </div>
           {/* <button onClick={() => i18next.changeLanguage('ge')} onChange={() => LangChange()}>Ge</button>
           <button onClick={() => i18next.changeLanguage('en')} onChange={() => LangChange()}>En</button> */}
-        
       </div>
     </div>
   </nav>
